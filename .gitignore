@@ -1,15 +1,20 @@
-# Generic backup files
-*~
-\#*
-.\#*
+# Ignore list for KiCAD Projects# Temporary files
 
-# KiCad backup files
+*.000
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.sch-bak
 
-# KiCad generated files
-*.erc
+*~_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist files (exported from Eeschema)
 *.net
-*-cache.lib
-*-rescue.lib
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
